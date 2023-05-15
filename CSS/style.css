@@ -1,0 +1,54 @@
+body {
+  background-color: #282c34;
+}
+
+#home {
+  width: 1000px;
+  height: 400px;
+  background-color: #282c34;
+  margin: 0 auto;
+  border-top: 100px solid #282c34;
+}
+
+#rosa {
+  color: #e60073;
+}
+
+#rosa {
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 12ch;
+  overflow: hidden;
+  animation: typing 2s steps(12), blink .5s infinite step-end alternate;
+  font-size: 1rem;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+#name {
+  color: white;
+  font-size: 3rem;
+  font-family: nunito, sans-serif;
+}
+
+#prof {
+  color: white;
+  font-size: 2.5rem;
+  font-family: nunito, sans-serif;
+}
+
+#ros {
+  color: #e60073;
+}
